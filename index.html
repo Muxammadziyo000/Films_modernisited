@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="header">
+        <div class="container wrapper">
+            <div class="left">
+            <img  src="./img/Icon.png" alt="">
+            <img class="img-1" src="./img/Logo.svg" alt="">
+            <select name="" id="" class="year" onchange="fnYear(value)">
+                <option value="" selected disabled>Year</option>
+                <option value="new">New</option>
+                <option value="old">Old</option>
+                
+            </select>
+            <select  onchange="fnRating(value)" id="" class="ranting">
+                <option value="" selected disabled>Rating</option>
+                <option value="higher">Higher</option>
+                <option value="lower">Lower</option>
+                
+            </select>
+            <select name="" id="" class="category" onchange="fnCategory(value)">
+                <option value="" selected disabled>Category</option>
+             
+            </select>
+            </div>
+            <div class="right">
+                <img src="./img/Group 4.png" alt="">
+                <button>Subscribe</button>
+                <a href="#">Log in</a>
+            </div>
+        </div>
+    </section>
+    <section class="section_carusel container">
+        <button class="switch" onclick="Previous()"><</button>
+        <button class="switch_2" onclick="Next()">></button>
+        <div class="carusel_wrapper container">
+            
+            <div class="carusel">
+            <img src="./img/modal 1.jpg" alt="">
+            <img src="./img/modal 2.jpg" alt="">
+            <img src="./img/modal 3.jpg" alt="">
+        </div>
+        </div>
+    </section>
+    <section class="section_movies container">
+        <ul class="movies_ul">
+         
+        </ul>
+    </section>
+    
+</body>
+<script src="./js/movies.js"></script>
+<script src="./js/main.js"></script>
+
+</html>
